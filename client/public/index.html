@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema de Reconocimiento de Objetos en Imágenes con CIFAR-10</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Sistema de Reconocimiento de Objetos con Imágenes</h1>
+  <form id="upload-form">
+    <input type="file" accept="image/*" id="image-input" />
+    <img id="preview" alt="Previsualización de la imagen" style="display:none;" />
+    <button type="submit">Predecir</button>
+  </form>
+
+  <h2>Resultado:</h2>
+  <pre id="result">Esperando predicción...</pre>
+
+  <h3>Imágenes de Ejemplo</h3>
+  <div id="examples-container">
+    <img class="example-image" src="/examples/auto.jpg" alt="Automóvil" />
+    <img class="example-image" src="/examples/avion.jpg" alt="Avión" />
+    <img class="example-image" src="/examples/barco.jfif" alt="Barco" />
+    <img class="example-image" src="/examples/caballo.jpg" alt="Caballo" /> 
+    <img class="example-image" src="/examples/camion.jpg" alt="Camión" />
+    <img class="example-image" src="/examples/ciervo.jpg" alt="Ciervo" />
+    <img class="example-image" src="/examples/gato.jpg" alt="Gato" />
+    <img class="example-image" src="/examples/pajaros.jpg" alt="Pájaros" />
+    <img class="example-image" src="/examples/perro.jfif" alt="Perro" />
+    <img class="example-image" src="/examples/rana.jpeg" alt="Rana" />
+  </div>
+
+
+  <!-- Aquí enlazamos el archivo JS -->
+  <script src="script.js"></script>
+</body>
+</html>

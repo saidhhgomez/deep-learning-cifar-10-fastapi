@@ -1,0 +1,5 @@
+node_modules/
+.venv
+proyecto_deep.h5
+Estructura-Proyecto.txt
+__pycache__
