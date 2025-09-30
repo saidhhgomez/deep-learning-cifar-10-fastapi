@@ -6,6 +6,7 @@ To run this project is necessary:
  - **Python** : Programming Language, version 3.10.0.
  - **Node.js** : The software for initializing JS files on a server.
  - **node_modules** : Installed in the root of the project.
+ - **Visual Studio Code** : IDE for compiling.
  - **virtualenv** :  Tool to create isolated Python environments.
 
 
